@@ -1,7 +1,7 @@
 {
   "name": "CHAMA-MD",
-  "version": "3.0.0",
-  "description": "A WhatsApp Bot Created By chamindu ",
+  "version": "4.0.0",
+  "description": "A WhatsApp Bot Created By Chamindu",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name CHAMA-MD",
@@ -19,6 +19,7 @@
     "pm2": "^6.0.5",
     "util": "^0.12.4",
     "express": "latest",
+    "moment-timezone": "^0.5.45",
     "axios": "^1.2.5",
     "crypto-digest-sync": "^1.0.0",
     "crypto-js": "latest",
